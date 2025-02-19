@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartButtonScript : MonoBehaviour
+public class ToTittle : MonoBehaviour
 {
-    public void StartNewGame()
+    public void BackToTittle()
     {
-        SceneManager.LoadScene("TaisBlock");
+        SceneManager.LoadScene("StartScene");
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartButtonScript : MonoBehaviour
+public class ButtonScript : MonoBehaviour
 {
-    public void StartNewGame()
+    public void ReplayGame()
     {
         SceneManager.LoadScene("TaisBlock");
     }
