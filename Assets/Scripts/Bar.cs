@@ -17,11 +17,11 @@ public class Bar : MonoBehaviour
     {
         Vector2 force = Vector2.zero;
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             force = new Vector2(barspeed * -1, 0);
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             force = new Vector2(barspeed, 0);
         }
