@@ -8,15 +8,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: 7f3232e671d6b4a6a98fec54ed563329
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainScene.unity
     guid: 21e1f4b9e793b0a4ea50ed0fff958ee0
   - enabled: 1
     path: Assets/Scenes/TaisBlock.unity
-    guid: 6bfaf4e77ce8348e5901b4c7b1847687
+    guid: ee147a95178611d44ae4f41b4e4f45ac
   - enabled: 1
     path: Assets/Scenes/GameOverScene.unity
     guid: a6d7693c01c6b4058872a4adc380a173
+  - enabled: 1
+    path: Assets/Scenes/ClearScene.unity
+    guid: 1ad0e9ded23b8465fb26fcfd6e28fd90
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4cc0f344ddc7c4f668245e47023f3637, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: ada3c159db6ab4e768ddd59de83b3575, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

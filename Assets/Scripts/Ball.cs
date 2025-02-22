@@ -3,23 +3,27 @@ using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
-    private Rigidbody2D myRigitbody;
-    public float speedX = 10;
-    public float speedY = 10;
+    private Rigidbody2D myRigidbody;
+    public float speedX;
+    public float speedY;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        myRigitbody = this.gameObject.GetComponent<Rigidbody2D>();
+        myRigidbody = this.gameObject.GetComponent<Rigidbody2D>();
 
         Vector2 force = new Vector2(speedX, speedY);
 
-        myRigitbody.AddForce(force);
+        myRigidbody.AddForce(force);
     }
 
     // Update is called once per frame
     void Update()
     {
+        // 現在の速度を取得して表示
+        //float currentSpeed = myRigidbody.linearVelocity.magnitude;
+        //Debug.Log("Current Speed: " + currentSpeed);
+
         if(transform.position.y < -4.5f)
         {
             // Debug.Log("GameOver");
